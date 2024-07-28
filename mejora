@@ -1,0 +1,23 @@
+@bot.command()
+async def mem(ctx):
+import random
+
+bot = commands.Bot(command_prefix='$', intents=intents)
+@bot.command()
+async def hello(ctx):
+    await ctx.send(f'def obtener_chiste_aleatorio():
+    chistes = [
+        "¿Por qué los pájaros no usan Facebook? ¡Porque ya tienen Twitter!",
+        "¿Cómo se dice pañuelo en japonés? Saka-moko.",
+        "¿Qué hace una abeja en el gimnasio? ¡Zum-ba!",
+        "¿Cuál es el animal más antiguo? La cebra, porque está en blanco y negro.",
+        "¿Por qué los esqueletos no pelean entre ellos? Porque no tienen agallas."
+    ]
+    
+    return random.choice(chistes)
+
+if __name__ == "__main__":
+    print("¡Aquí tienes un chiste para ti!")
+    print(obtener_chiste_aleatorio()) {bot.user}!')
+
+bot.run("MTI1OTcyNDg5ODAyMTE1MDgwMA.G02zJV.WE4eQz-smAJLb5H1UzxSPPI7_ydXIiLFGVAA-4") 
